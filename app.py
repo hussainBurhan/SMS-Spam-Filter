@@ -4,7 +4,7 @@ from nltk.corpus import stopwords
 import nltk
 from nltk.stem import PorterStemmer
 import string
-
+nltk.download('punkt')
 
 def transform_text(text):
     text = text.lower()
